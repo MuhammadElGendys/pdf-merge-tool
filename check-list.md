@@ -1,6 +1,6 @@
 # Check-list:
 - [x] Create python env.
-- [ ] Install all python libraries you need.
+- [x] Install all python libraries you need.
 - [ ] Continue checking the program instructure you need for this project.
 - [ ] Create log file to trace every single change.
 
