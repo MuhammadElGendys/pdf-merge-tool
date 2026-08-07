@@ -49,9 +49,9 @@ def MergingPDFs():
     print("Check your folder for the new generated merged.pdf file.")
 
 def InitText():
-    LongSeparetor()
+    LongSeparator()
     print("N.B.: The order of your PDFs should be like: 0, 1, 2...")
-    LongSeparetor()
+    LongSeparator()
 
 try:
     InitText()

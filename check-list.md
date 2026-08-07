@@ -3,6 +3,10 @@
 - [x] Install all python libraries you need.
 - [x] Continue checking the program instructure you need for this project.
 - [ ] Create log file to trace every single change.
+- [x] build your code using:
+```bash 
+pyinstaller --onedir --noupx main.py
+```
 
 # Error handling:
 - User write a non-existing path
