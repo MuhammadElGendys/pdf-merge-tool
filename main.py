@@ -45,6 +45,8 @@ def MergingPDFs():
         pdf_path = os.path.join(user_input_path, pdf)
         merge.append(pdf_path)
     merge.write(os.path.join(user_input_path, "merged.pdf"))
+    print("Everything went fine!")
+    print("Check your folder for the new generated merged.pdf file.")
 
 def InitText():
     LongSeparetor()
