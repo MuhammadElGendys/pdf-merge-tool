@@ -15,9 +15,12 @@ Instead of manipulating PDF structure online, it uses python code on your local 
 
 ---
 
-## How It Works
+## How It Works (development)
 
-
+required dependencies
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
