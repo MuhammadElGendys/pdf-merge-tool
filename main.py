@@ -10,13 +10,13 @@ def extract_number(filename):
     match = re.search(r'\d+', filename)
     return int(match.group()) if match else 0
 
-def LongSeparetor():
+def LongSeparator():
     print("========================================================")
 
-def MidSeparetor():
+def MidSeparator():
     print("============================")
 
-def ShortSeparetor():
+def ShortSeparator():
     print("==============")
 
 def PathValidation(path):
