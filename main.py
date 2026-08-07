@@ -3,6 +3,7 @@ from pypdf import PdfReader as PR
 from pypdf import PdfWriter as PW
 import os
 import re
+import time
 
 # functions
 
@@ -57,5 +58,6 @@ try:
     InitText()
     GetUserInput()
     MergingPDFs()
+    time.sleep(5)
 except Exception as e:
     print(f"Something went wrong: {e}")
